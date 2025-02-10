@@ -1,15 +1,12 @@
-
-
-
-nav {
-
-}
-
 body {
 	background-color: #9933cc;
 }
 
+.first-page {
+	font-style: italic;
+}
 
 .main-image {
 max-width: 75%;
+border-radius: 10px;
 }
