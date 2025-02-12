@@ -1,11 +1,25 @@
+nav {
+
+}
+
+
 body {
 	background-color: #9933cc;
 }
 
+h1{
+	font-family: "Staatliches", serif;
+}
 
 p {
 	font-family: "Emilys Candy", serif;
+	font-size: 1.5rem;
 }
+.font-example2 {
+font-family: "Emilys Candy", serif;
+	font-size: 2.0rem;
+}
+
 .first-page {
 	font-style: italic;
 }
