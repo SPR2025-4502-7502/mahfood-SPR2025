@@ -2,6 +2,10 @@ body {
 	background-color: #9933cc;
 }
 
+
+p {
+	font-family: "Emilys Candy", serif;
+}
 .first-page {
 	font-style: italic;
 }
