@@ -1,3 +1,18 @@
+html, body {
+	Height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: ;
+}
+
+
+
+
+
 nav {
 background-color: black;
 max-width: 800px;
@@ -8,7 +23,7 @@ text-transform: uppercase;
 }
 
 body {
-	background-color: #9933cc;
+	background-color: #d0a1e7;
 }
 
 h1{
