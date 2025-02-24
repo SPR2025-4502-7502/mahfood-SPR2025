@@ -1,20 +1,17 @@
 html, body {
 	height: 100%;
 	margin: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	text-align: center;
 }
 
 nav {
-background-color: black;
+background-color: white;
 max-width: 800px;
 margin: auto;
 font-size: 1rem;
 border-radius: 0.2rem;
 text-transform: uppercase;
+font-family: "Oswald", serif;
 }
 
 body {
@@ -27,13 +24,17 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+	font-family: "Oswald", serif;
+	color: purple;
+}
 p {
-	font-family: "Emilys Candy", serif;
+	font-family: "Bonbon", serif;
 	font-size: 1.5rem;
 	text-transform: none;
 }
 .font-example2 {
-	font-family: "Emilys Candy", serif;
+	font-family: "Bonbon", serif;
 	font-size: 2.0rem;
 }
 
@@ -48,6 +49,7 @@ p {
 .main-image {
 max-width: 75%;
 border-radius: 10px;
+border: none;
 }
 ul {
 	list-style-position: inside; 
@@ -56,4 +58,5 @@ ul {
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
+    font-family: "Oswald" , serif;
 }
