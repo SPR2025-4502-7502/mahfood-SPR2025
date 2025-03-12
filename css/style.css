@@ -3,7 +3,10 @@ html, body {
 	margin: 0;
 	text-align: center;
 }
-
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
 nav {
 background-color: white;
 max-width: 800px;
@@ -16,6 +19,7 @@ font-family: "Oswald", serif;
 
 body {
 	background-color: #d0a1e7;
+
 }
 
 h1 {
@@ -45,16 +49,29 @@ p {
 	font-weight: 100;
 	margin-top: 1rem;
 }
+header {
+  background-color: #a143cf;
+  padding: 20px;
+}
+
+footer {
+  background-color: #a143cf;
+  padding: 15px;
+  color: white;
+}
 
 .main-image {
 max-width: 75%;
 border-radius: 10px;
 border: none;
+width: 300px;  /* Fixed width */
+height: 200px; /* Fixed height */
+object-fit: cover; /* Ensures uniform sizing without distortion */
 }
+
 ul {
 	list-style-position: inside; 
     padding: 0; 
-    display: flex;
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
@@ -66,12 +83,57 @@ ul {
     display: block;
     padding: 0;
     list-style-type: none;
+    background-color: #a143cf;
   }
   nav ul li {
     display: block;
     margin-bottom: 10px;
+    font-family: "Staatliches", serif;
+    font-weight: bold;
+
   }
 nav a {
   text-decoration: none;
-  color: purple;
+  color: white;
+  }
+}
+
+/* Styles for screens 555px and up */
+@media (min-width: 555px) {
+  body {
+	background-color: #c285d6;
+  }
+
+  .first-page {
+	font-size: 4rem;
+  }
+
+  nav {
+	font-size: 1.2rem;
+  }
+}
+
+/* Styles for screens 800px and up */
+@media (min-width: 800px) {
+  body {
+	background-color: #b374c5;
+  }
+
+  .first-page {
+	font-size: 3.5rem;
+  }
+
+  nav {
+	max-width: 900px;
+	font-size: 1.5rem;
+  }
+
+  ul {
+	flex-direction: row;
+	justify-content: center;
+  }
+
+  ul li {
+	margin: 0 15px;
+  }
 }
