@@ -90,14 +90,22 @@ ul {
     margin-bottom: 10px;
     font-family: "Staatliches", serif;
     font-weight: bold;
-
   }
+  nav ul li a:visited {
+	text-decoration: none;
+	color: #2f103e;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #b972db;
+}
 nav a {
   text-decoration: none;
   color: white;
   }
-}
 
+}
 /* Styles for screens 555px and up */
 @media (min-width: 555px) {
   body {
