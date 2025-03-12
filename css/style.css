@@ -17,7 +17,7 @@ text-transform: uppercase;
 font-family: "Oswald", sans-serif;
 }
 nav.list-page {
- font-family: "Diplomata", serif;
+  font-family: "Diplomata", serif;
   font-weight: 400;
   font-style: normal;
   display: block;
@@ -191,5 +191,8 @@ nav a {
 	margin: 0 15px;
   }
 }
-
-
+class= "image-credit" {
+  font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
