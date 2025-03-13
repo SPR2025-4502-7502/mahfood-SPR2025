@@ -20,6 +20,7 @@ nav.list-page {
   font-family: "Diplomata", serif;
   font-weight: 400;
   font-style: normal;
+  color: black;
   display: block;
   width: 100%;
   height: 75px;
@@ -105,12 +106,12 @@ footer {
   font-family: "Oswald", serif;
   color: white;
 }
-nav ul li a:visited {
+.home-page nav ul li a:visited {
   text-decoration: none;
   color: #2f103e;
 }
 
-nav ul li a:hover {
+.home-page nav ul li a:hover {
   text-decoration: none;
   color: #b972db;
 }
@@ -121,6 +122,15 @@ border: none;
 width: 300px;  /* Fixed width */
 height: 200px; /* Fixed height */
 object-fit: cover; /* Ensures uniform sizing without distortion */
+}
+.img-credit" {
+  font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
 }
 
 ul {
@@ -190,9 +200,4 @@ nav a {
   ul li {
 	margin: 0 15px;
   }
-}
-class= "image-credit" {
-  font-family: "Diplomata", serif;
-  font-weight: 400;
-  font-style: normal;
 }
