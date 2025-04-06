@@ -240,10 +240,37 @@ object-fit: cover; /* Ensures uniform sizing without distortion */
   color: #ffeddc;
   font-weight: 500;
   font-style: normal;
+  font-size: 1.25rem;
 }
 .phone-number a:visited {
   text-decoration: none;
   color: #663300;
+}
+  .phone-number a {
+  color: #ffeddc;
+  text-decoration: none;
+}
+
+.phone-number a:hover {
+  color: #ffcc99;
+}
+
+.website2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+.website2 a:visited {
+  text-decoration: none;
+  color: #663300;
+}
+  .website2 a {
+  color: #ffeddc;
+  text-decoration: none;
+}
+
+.website2 a:hover {
+  color: #ffcc99;
 }
 ul {
 	list-style-position: inside; 
