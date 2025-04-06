@@ -41,7 +41,7 @@ nav.nav-list-page2 li,
 nav.nav-list-page2 a {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
   color: white;
   text-decoration: none;
@@ -108,6 +108,13 @@ body.list-page {
   font-size: 3.5rem;
   color: #3399ff;
 }
+.list-page2 h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+  font-style: normal;
+  color: #ffeddc;
+}
 h1 {
 	font-family: "Staatliches", serif;
     color: white;
@@ -131,6 +138,13 @@ h1 {
   color: royalblue;
   font-size: 2.25rem;
 }
+.list-page2 h2 {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+}
 .list-page h3 {
   font-family: "Chewy", system-ui;
   color: #3399ff;
@@ -145,6 +159,11 @@ body.list-page p {
   font-family: "Sansita", sans-serif;
   font-size: 1.5rem;
   color: #001a33;
+}
+body.list-page2 p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: #ffb366;
 }
 .font-example2 {
 	font-family: "Bonbon", serif;
@@ -179,6 +198,7 @@ footer.list-page2 {
   background-color: #663300;
   padding: 15px;
   font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 300;
   color: white;
 }
 .list-page footer a:visited,
@@ -215,8 +235,16 @@ object-fit: cover; /* Ensures uniform sizing without distortion */
     text-decoration: none;
     color: #3399ff;
   }
-
-
+.phone-number {
+  font-family: "Lora", serif;
+  color: #ffeddc;
+  font-weight: 500;
+  font-style: normal;
+}
+.phone-number a:visited {
+  text-decoration: none;
+  color: #663300;
+}
 ul {
 	list-style-position: inside; 
     padding: 0; 
