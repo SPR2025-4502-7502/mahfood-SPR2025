@@ -205,6 +205,10 @@ footer.list-page2 {
 .list-page footer a:link {
   color: white;
 }
+.list-page2 footer a:visited,
+.list-page2 footer a:link {
+  color: white;
+}
 .home-page nav a:visited {
   text-decoration: none;
   color: #2f103e;
@@ -233,7 +237,7 @@ object-fit: cover; /* Ensures uniform sizing without distortion */
 }
   .img-credit a:visited {
     text-decoration: none;
-    color: #3399ff;
+    color: dark blue;
   }
 .phone-number {
   font-family: "Lora", serif;
@@ -255,23 +259,17 @@ object-fit: cover; /* Ensures uniform sizing without distortion */
   color: #ffcc99;
 }
 
-.website2 {
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+.website2 a {
   color: white;
 }
 .website2 a:visited {
-  text-decoration: none;
-  color: #663300;
-}
-  .website2 a {
   color: #ffeddc;
   text-decoration: none;
 }
-
 .website2 a:hover {
   color: #ffcc99;
 }
+
 ul {
 	list-style-position: inside; 
     padding: 0; 
@@ -400,4 +398,132 @@ ul {
     margin: 0 15px;
   }
 }
+@media (max-width: 600px) {
+  body.list-page2 {
+    background-color: #cc6600; /* slightly different shade for mobile */
+  }
+
+  nav.nav-list-page2 ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .list-page2 h1 {
+    font-size: 2rem;
+  }
+
+  .list-page2 h2 {
+    font-size: 1.75rem;
+  }
+
+  .list-page2 p {
+    font-size: 1.2rem;
+  }
+
+  .main-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .phone-number {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 555px) {
+  body.list-page2 {
+    background-color: #994d00; /* your original background */
+  }
+
+  nav.nav-list-page2 {
+    font-size: 1.2rem;
+  }
+
+  .list-page2 h1 {
+    font-size: 2.75rem;
+  }
+
+  .list-page2 h2 {
+    font-size: 2rem;
+  }
+
+  .list-page2 p {
+    font-size: 1.3rem;
+  }
+
+  .main-image {
+    width: 75%;
+    height: 200px;
+  }
+}
+@media (min-width: 800px) {
+  body.list-page2 {
+    background-color: #803300; /* slightly deeper shade */
+  }
+
+  nav.nav-list-page2 {
+    max-width: 900px;
+    font-size: 1.5rem;
+  }
+
+  .list-page2 h1 {
+    font-size: 3.5rem;
+  }
+
+  .list-page2 h2 {
+    font-size: 2.25rem;
+  }
+
+  .list-page2 p {
+    font-size: 1.5rem;
+  }
+
+  .main-image {
+    width: 300px;
+    height: 200px;
+  }
+
+  .phone-number {
+    font-size: 1.25rem;
+  }
+}
+/* Small screens: max width 600px */
+@media (max-width: 600px) {
+  nav.nav-list-page2 {
+    height: 60px;
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+
+  nav.nav-list-page2 a {
+    font-size: 0.6rem;
+  }
+}
+
+/* Medium screens: 555px and up */
+@media (min-width: 555px) {
+  nav.nav-list-page2 {
+    height: 80px;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  nav.nav-list-page2 a {
+    font-size: 0.8rem;
+  }
+}
+
+/* Large screens: 800px and up */
+@media (min-width: 800px) {
+  nav.nav-list-page2 {
+    height: 120px;
+    font-size: 1.25rem;
+    padding: 20px;
+  }
+
+  nav.nav-list-page2 a {
+    font-size: 1.25rem;
+  }
+}
+
+
 
