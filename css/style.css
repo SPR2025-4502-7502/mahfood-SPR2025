@@ -34,7 +34,60 @@ nav.nav-list-page {
   height: 100px;
   padding: 10;
 }
+/* Navigation styling for second list page */
+nav.nav-list-page2,
+nav.nav-list-page2 ul,
+nav.nav-list-page2 li,
+nav.nav-list-page2 a {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
 
+/* Main nav container */
+nav.nav-list-page2 {
+  background-color: #663300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Nav list */
+nav.nav-list-page2 ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Nav items */
+nav.nav-list-page2 li {
+  margin: 0;
+}
+
+/* Links inside nav */
+nav.nav-list-page2 a {
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+nav.nav-list-page2 a:hover {
+  color: #ffcc66;
+}
+body.list-page2 {
+  background-color: #994d00;
+}
+
+}
 body.home-page {
   background-color: #d0a1e7;
 }
@@ -120,6 +173,12 @@ footer.list-page {
   background-color: #0c4976;
   padding: 15px;
   font-family: "Chewy", system-ui;
+  color: white;
+}
+footer.list-page2 {
+  background-color: #663300;
+  padding: 15px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   color: white;
 }
 .list-page footer a:visited,
