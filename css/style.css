@@ -35,10 +35,10 @@ nav.nav-list-page {
   padding: 10;
 }
 /* Navigation styling for second list page */
-nav.nav-list-page2,
-nav.nav-list-page2 ul,
-nav.nav-list-page2 li,
-nav.nav-list-page2 a {
+nav.nav-location,
+nav.nav-location ul,
+nav.nav-location li,
+nav.nav-location a {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -48,7 +48,7 @@ nav.nav-list-page2 a {
 }
 
 /* Main nav container */
-nav.nav-list-page2 {
+nav.nav-location {
   background-color: #663300;
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@ nav.nav-list-page2 {
 }
 
 /* Nav list */
-nav.nav-list-page2 ul {
+nav.nav-location ul {
   display: flex;
   gap: 20px;
   padding: 0;
@@ -69,24 +69,22 @@ nav.nav-list-page2 ul {
 }
 
 /* Nav items */
-nav.nav-list-page2 li {
+nav.nav-location li {
   margin: 0;
 }
 
 /* Links inside nav */
-nav.nav-list-page2 a {
+nav.nav-location a {
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
 /* Hover effect */
-nav.nav-list-page2 a:hover {
+nav.nav-location a:hover {
   color: #ffcc66;
 }
-body.list-page2 {
+body.location {
   background-color: #994d00;
-}
-
 }
 body.home-page {
   background-color: #d0a1e7;
@@ -108,7 +106,7 @@ body.list-page {
   font-size: 3.5rem;
   color: #3399ff;
 }
-.list-page2 h1 {
+.location h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 500;
   font-size: 5rem;
@@ -138,7 +136,7 @@ h1 {
   color: royalblue;
   font-size: 2.25rem;
 }
-.list-page2 h2 {
+.location h2 {
   font-family: "Lora", serif;
   font-style: italic;
   font-size: 2.25rem;
@@ -160,7 +158,7 @@ body.list-page p {
   font-size: 1.5rem;
   color: #001a33;
 }
-body.list-page2 p {
+body.location p {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   color: #ffb366;
@@ -194,7 +192,7 @@ footer.list-page {
   font-family: "Chewy", system-ui;
   color: white;
 }
-footer.list-page2 {
+footer.location {
   background-color: #663300;
   padding: 15px;
   font-family: "Yanone Kaffeesatz", sans-serif;
@@ -205,8 +203,8 @@ footer.list-page2 {
 .list-page footer a:link {
   color: white;
 }
-.list-page2 footer a:visited,
-.list-page2 footer a:link {
+.location footer a:visited,
+.location footer a:link {
   color: white;
 }
 .home-page nav a:visited {
@@ -430,50 +428,50 @@ ul {
   }
 }
 @media (min-width: 555px) {
-  body.list-page2 {
+  body.location {
     background-color: #994d00; /* your original background */
   }
 
-  nav.nav-list-page2 {
+  nav.nav-location {
     font-size: 1.2rem;
   }
 
-  .list-page2 h1 {
+  .location h1 {
     font-size: 2.75rem;
   }
 
-  .list-page2 h2 {
+  .location h2 {
     font-size: 2rem;
   }
 
-  .list-page2 p {
+  .location p {
     font-size: 1.3rem;
   }
 
-  .main-image {
+  .location {
     width: 75%;
     height: 200px;
   }
 }
 @media (min-width: 800px) {
-  body.list-page2 {
+  body.location {
     background-color: #803300; /* slightly deeper shade */
   }
 
-  nav.nav-list-page2 {
+  nav.nav-location {
     max-width: 900px;
     font-size: 1.5rem;
   }
 
-  .list-page2 h1 {
+  .location h1 {
     font-size: 3.5rem;
   }
 
-  .list-page2 h2 {
+  .location h2 {
     font-size: 2.25rem;
   }
 
-  .list-page2 p {
+  .location p {
     font-size: 1.5rem;
   }
 
@@ -488,42 +486,84 @@ ul {
 }
 /* Small screens: max width 600px */
 @media (max-width: 600px) {
-  nav.nav-list-page2 {
+  nav.nav-location {
     height: 60px;
     font-size: 0.6rem;
     padding: 5px;
   }
 
-  nav.nav-list-page2 a {
+  nav.nav-location a {
     font-size: 0.6rem;
   }
 }
 
 /* Medium screens: 555px and up */
 @media (min-width: 555px) {
-  nav.nav-list-page2 {
+  nav.nav-location {
     height: 80px;
     font-size: 0.8rem;
     padding: 10px;
   }
 
-  nav.nav-list-page2 a {
+  nav.nav-location a {
     font-size: 0.8rem;
   }
 }
 
 /* Large screens: 800px and up */
 @media (min-width: 800px) {
-  nav.nav-list-page2 {
+  nav.nav-location {
     height: 120px;
     font-size: 1.25rem;
     padding: 20px;
   }
 
-  nav.nav-list-page2 a {
+  nav.nav-location a {
     font-size: 1.25rem;
   }
 }
 
+/* Shared text container, only expands on list page */
+.text-holder {
+  display: block;
+}
 
+body.list-page .text-holder {
+  width: 100%;
+}
+
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.location-card {
+  background-color: #994d00;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.location-card h2,
+.location-card p,
+.location-card .phone-number,
+.location-card .website2 {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.location-card:hover {
+  background-color: #b35900;
+  transition: background-color 0.3s ease;
+}
+.location-card .main-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
 
