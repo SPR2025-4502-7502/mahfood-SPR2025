@@ -27,7 +27,6 @@ nav.nav-list-page {
   list-style-type: none;
   color: black;
   display: flex;
-  justify-content: center;
   margin: auto;
   max-width: 800px;
   width: 100%;
@@ -51,7 +50,6 @@ nav.nav-location a {
 nav.nav-location {
   background-color: #663300;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 100px;
   max-width: 800px;
@@ -197,6 +195,7 @@ footer.list-page {
 footer.location {
   background-color: #663300;
   padding: 15px;
+  text-align: center;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 300;
   color: white;
@@ -431,7 +430,12 @@ ul {
 }
 @media (min-width: 555px) {
   body.location {
-    background-color: #994d00; /* your original background */
+    background-color: #994d00;
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; /* Full viewport height */
+  margin: 0;
   }
 
   nav.nav-location {
@@ -539,12 +543,11 @@ body.list-page .text-holder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
   padding: 2rem 1rem;
   width: 100%;
   max-width: 900px;
-  margin: 0 auto;
+ 
 }
 
 .location-card {
