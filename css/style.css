@@ -66,6 +66,7 @@ nav.nav-location ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  justify-content: center;
 }
 
 /* Nav items */
@@ -77,6 +78,7 @@ nav.nav-location li {
 nav.nav-location a {
   font-size: 1rem;
   transition: color 0.3s ease;
+  color: white;
 }
 
 /* Hover effect */
@@ -537,8 +539,12 @@ body.list-page .text-holder {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
   padding: 2rem 1rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .location-card {
@@ -548,6 +554,7 @@ body.list-page .text-holder {
   max-width: 800px;
   width: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  text-align: center; 
 }
 
 .location-card h2,
