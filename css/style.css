@@ -36,7 +36,7 @@ background-color: white;
   padding: 10;
 }
 /* Navigation styling for second list page */
-.nav-location nav {
+.nav-location-page nav {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -53,7 +53,7 @@ background-color: white;
 }
 
 /* Nav list */
-.nav-location nav ul {
+.nav-location-page nav ul {
   display: flex;
   gap: 20px;
   padding: 0;
@@ -451,7 +451,7 @@ ul {
 }
 @media (min-width: 800px) {
   .location body {
-    background-color: #803300; /* slightly deeper shade */
+    background-color: #803300;
   }
 
   .nav-location nav {
