@@ -394,7 +394,7 @@ ul {
   }
 }
 @media (max-width: 600px) {
-  .nav-location-page body {
+  .location {
     background-color: #cc6600; /* slightly different shade for mobile */
   }
 
@@ -425,12 +425,12 @@ ul {
   }
 }
 @media (min-width: 555px) {
-  .location body {
+  .location {
     background-color: #994d00;
     display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin: auto;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
   }
 
   .nav-location nav {
@@ -451,7 +451,7 @@ ul {
 
 }
 @media (min-width: 800px) {
-  body .nav-location-page  {
+  .location {
     background-color: #803300;
   }
 
