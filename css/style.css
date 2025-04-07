@@ -36,7 +36,7 @@ background-color: white;
   padding: 10;
 }
 /* Navigation styling for second list page */
-.nav-location-page nav {
+.nav-location-page {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -46,6 +46,7 @@ background-color: white;
   align-items: center;
   background-color: #663300;
   display: flex;
+  justify-content: center;
   align-items: center;
   max-width: 800px;
   margin: auto;
@@ -78,7 +79,7 @@ background-color: white;
 .nav-location nav a:hover {
   color: #ffcc66;
 }
-.location body {
+.location {
   background-color: #994d00;
 }
 .home-page body {
@@ -393,7 +394,7 @@ ul {
   }
 }
 @media (max-width: 600px) {
-  .location body {
+  .nav-location-page body {
     background-color: #cc6600; /* slightly different shade for mobile */
   }
 
@@ -450,7 +451,7 @@ ul {
 
 }
 @media (min-width: 800px) {
-  .location body {
+  body .nav-location-page  {
     background-color: #803300;
   }
 
