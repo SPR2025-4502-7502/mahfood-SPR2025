@@ -36,10 +36,7 @@ background-color: white;
   padding: 10;
 }
 /* Navigation styling for second list page */
-.nav-location nav,
-.nav-location nav ul,
-.nav-location nav li,
-.nav-location nav a {
+.nav-location nav {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -47,11 +44,6 @@ background-color: white;
   color: white;
   text-decoration: none;
   align-items: center;
-  margin: auto;
-}
-
-/* Main nav container */
-.nav-location nav {
   background-color: #663300;
   display: flex;
   align-items: center;
