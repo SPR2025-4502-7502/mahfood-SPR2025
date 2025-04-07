@@ -402,24 +402,24 @@ ul {
   }
 }
 @media (max-width: 600px) {
-  body.list-page2 {
+  body.location {
     background-color: #cc6600; /* slightly different shade for mobile */
   }
 
-  nav.nav-list-page2 ul {
+  nav.nav-location ul {
     flex-direction: column;
     gap: 10px;
   }
 
-  .list-page2 h1 {
+  .location h1 {
     font-size: 2rem;
   }
 
-  .list-page2 h2 {
+  .location h2 {
     font-size: 1.75rem;
   }
 
-  .list-page2 p {
+  .location p {
     font-size: 1.2rem;
   }
 
