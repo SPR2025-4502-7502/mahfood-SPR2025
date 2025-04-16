@@ -88,7 +88,9 @@ background-color: white;
 .list-page body {
   background-color: #d0e7ff;
 }
-
+.gallery h1 {
+  color: black;
+}
 .home-page h1 {
   font-family: "Staatliches", serif;
   color: #333;
