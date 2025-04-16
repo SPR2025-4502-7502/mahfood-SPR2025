@@ -584,5 +584,6 @@ body.list-page .text-holder {
   display: none;
 }
 .gallery-image {
-  max-width: 80%;
+  max-width: 60%;
+  height: 70% ;
 }
