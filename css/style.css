@@ -593,7 +593,7 @@ body.list-page .text-holder {
   width: 40%;
   height: 40%;
 }
-.gallery-header {
+.gallery-header h1 {
   font-family: "Irish Grover", system-ui;
   font-weight: 400;
   font-style: normal;
