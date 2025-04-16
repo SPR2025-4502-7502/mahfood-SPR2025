@@ -580,3 +580,6 @@ body.list-page .text-holder {
   height: auto;
 }
 
+.hideThis {
+  display: none;
+}
