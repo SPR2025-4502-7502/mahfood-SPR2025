@@ -276,6 +276,10 @@ ul {
     list-style-type: none;
     font-family: "Oswald" , serif;
 }
+.hideThis {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .home-page nav ul {
     display: block;
@@ -580,8 +584,6 @@ body.list-page .text-holder {
   height: auto;
 }
 
-.hideThis {
-  display: none;
 }
 .gallery-image {
   display: flex;
@@ -590,9 +592,5 @@ body.list-page .text-holder {
   align-items: center;
   max-width: 80%;
   width: 100%;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
   margin: auto;
 
