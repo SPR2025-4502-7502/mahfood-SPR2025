@@ -583,3 +583,6 @@ body.list-page .text-holder {
 .hideThis {
   display: none;
 }
+.gallery-image {
+  max-width: 80%;
+}
