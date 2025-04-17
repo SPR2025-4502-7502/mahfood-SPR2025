@@ -266,15 +266,13 @@ object-fit: cover; /* Ensures uniform sizing without distortion */
 .website2 a:hover {
   color: #ffcc99;
 }
-
 ul {
-	list-style-position: inside; 
+  list-style-position: inside; 
     padding: 0; 
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
     list-style-type: none;
-    font-family: "Oswald" , serif;
 }
 .hideThis {
   display: none;
@@ -603,28 +601,24 @@ h1.gallery-header {
   background: #ffffff;
   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(29, 145, 0, 1) 100%);
 }
-.bar {
-  display: flex;
-  justify-content: center;
+.gallery-nav li a {
   background-color: #1D9100;
-  padding: 1rem;
-}
-
-.bar ul {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.bar a {
+  font-family: "Borel", cursive;
   color: white;
-  text-decoration: none;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.2rem;
+  display: inline-block;
+}
+.gallery-nav li a:hover {
+  background-color: #145e00;
 }
 
-.bar a:hover {
-  color: #bdf5a6;
+.gallery-paragraph {
+font-family: "National Park", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #1f3d2b;
+}
+.my-button button {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
