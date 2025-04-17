@@ -596,6 +596,7 @@ h1.gallery-header {
   font-weight: 400;
   font-style: normal;
   color: #3d2b1f;
+  font-size: 2rem;
 }
 .gallery {
   background: #ffffff;
@@ -613,12 +614,22 @@ h1.gallery-header {
 
 .gallery-paragraph {
 font-family: "National Park", sans-serif;
-font-weight: 500;
+font-weight: 600;
 font-style: normal;
-color: #1f3d2b;
+color: #3d2b1f;
 }
-.my-button button {
+
+.caption p {
   font-family: "Irish Grover", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #3d2b1f;
+  font-size: 1.2rem;
+}
+
+.footer-gallery {
+  font-family: "Borel", cursive;
+  color: white;
+  font-style: normal;
+  background-color: #1D9100;
 }
