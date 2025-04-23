@@ -10,12 +10,7 @@
 }
 
 .skip-link:focus {
-  width: unset;
-  height: unset;
-  position: relative;
-  padding: unset;
-  margin: unset;
-  font-size: 4rem;
+  top: 0;
 }
 
 
