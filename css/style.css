@@ -512,13 +512,13 @@ ul {
 }
 /* Small screens: max width 600px */
 @media (max-width: 600px) {
-  .nav-location nav {
+  .nav-location-page nav {
     height: 60px;
     font-size: 0.6rem;
     padding: 5px;
   }
 
-  .nav-location nav a {
+  .nav-location-page nav a {
     font-size: 0.6rem;
   }
   .location-container {
@@ -531,7 +531,7 @@ ul {
 
 /* Medium screens: 555px and up */
 @media (min-width: 555px) {
-  .nav-location nav {
+  .nav-location-page nav {
     height: 80px;
     font-size: 0.8rem;
     padding: 10px;
@@ -544,13 +544,13 @@ ul {
 
 /* Large screens: 800px and up */
 @media (min-width: 800px) {
-  .nav-location nav {
+  .nav-location-page nav {
     height: 120px;
     font-size: 1.25rem;
     padding: 20px;
   }
 
-  .nav-location nav a {
+  .nav-location-page nav a {
     font-size: 1.25rem;
   }
 }
