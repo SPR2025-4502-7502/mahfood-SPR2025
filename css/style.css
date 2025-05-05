@@ -37,7 +37,7 @@ text-transform: uppercase;
 font-family: "Oswald", sans-serif;
 background-color: white;
 }
-.nav-list-page nav {
+.nav-list-page {
   background-color: white;
   font-family: "Abril Fatface", serif;
   font-weight: 400px;
@@ -45,13 +45,14 @@ background-color: white;
   align-items: center;
   list-style-type: none;
   color: black;
+  justify-content: center;
   display: flex;
   margin: auto;
   max-width: 800px;
   width: 100%;
   padding: 10;
 }
-/* Navigation styling for second list page */
+
 .nav-location-page {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-optical-sizing: auto;
@@ -88,6 +89,9 @@ background-color: white;
 .nav-location nav a {
   font-size: 1rem;
  text-decoration: none;
+  color: white;
+}
+.nav-location nav a:visited {
   color: white;
 }
 
