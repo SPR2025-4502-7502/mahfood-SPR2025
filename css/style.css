@@ -73,6 +73,7 @@ background-color: white;
 /* Nav list */
 .nav-location-page nav ul {
   display: flex;
+  color: white;
   gap: 20px;
   padding: 0;
   margin: auto;
@@ -83,6 +84,7 @@ background-color: white;
 /* Nav items */
 .nav-location nav li {
   margin: auto;
+  color: white;
 }
 
 /* Links inside nav */
